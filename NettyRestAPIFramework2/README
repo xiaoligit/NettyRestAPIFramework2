@@ -1,0 +1,12 @@
+1、执行数据库脚本示例 resteasy_booktest.sql
+
+2、启动  Main.java 直接启动基于netty的resteasy服务器
+
+3、访问测试
+http://localhost:8082/resteasy/ws/demo/book/2
+http://localhost:8082/resteasy/ws/demo/book/list?start=0&limit=10
+
+4、拷贝config.properties和SqlMapConfig.xml可以配置多数据源访问  
+
+
+
